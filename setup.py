@@ -9,7 +9,7 @@ setup(
     name='absconbest_payroll',
     version='0.1b1',
     description='Manages payroll and time',
-    url='https://github.com/soorho',
+    url='https://github.com/soorho/absconbest_payroll',
     author='Soooo',
     author_email='soobinrho@gmail.com',
     license='MIT',
