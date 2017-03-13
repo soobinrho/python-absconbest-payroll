@@ -1,6 +1,8 @@
-from plotly import tools
+import os
 import plotly.graph_objs as go
 import plotly.offline as py
+from plotly import tools
+
 
 def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_title):
     #Initialize the Data
@@ -78,14 +80,14 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
         showlegend=False,
     )
 
-   #Save the graph into the desktop folder 
+    #Save the graph into the desktop folder 
     dir_home=os.path.expanduser("~/Desktop/absconbest_payroll/")
 
     #Follow Plotly API's standards
     fig = go.Figure(data=data, layout=layout_style)
     py.plot(
         fig,
-        filename=os.path.expanduser(dir_home)+main_title.lower().replace(" ","_").replace(",","")+".html",
+        filename=dir_home+main_title.lower().replace(" ","_").replace(",","")+".html",
         auto_open=True,
-        image_filename=os.path.expanduser(dir_home)+main_title.lower().replace(" ","_").replace(",",""),
+        image_filename=dir_home+main_title.lower().replace(" ","_").replace(",",""),
     )
