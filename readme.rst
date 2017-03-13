@@ -6,7 +6,7 @@ Documentation for Ubuntu/Linux
 
 **Installation**
 
- This program requires Python and its package manager which can be installed by opening a terminal and typing:
+This program requires Python and its package manager which can be installed by opening a terminal and typing:
 
 >>> sudo apt install python-dev python-pip
 
