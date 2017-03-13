@@ -24,6 +24,8 @@ setup(
         'plotly',
         'pylatex',
         'xlrd',
+        'ipython',
+        'numpy',
     ],
     data_files=[
         (

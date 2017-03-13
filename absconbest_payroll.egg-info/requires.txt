@@ -1,9 +1,0 @@
-pandas
-pylatex
-plotly
-numpy
-python-dateutil
-pytz
-numexpr
-bottleneck
-matplotlib
