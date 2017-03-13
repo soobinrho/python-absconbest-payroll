@@ -6,56 +6,47 @@ Documentation for Ubuntu/Linux
 
 **Installation**
 
-First, extract the compressed file.
+ This program requires Python and its package manager which can be installed by opening a terminal and typing:
+
+>>> sudo apt install python-dev python-pip
+
+We can use an extra function that generates a graph and report. If you want it, install:
+
+>>> sudo apt install texlive-latex-recommended
+
+First, extract the compressed file downloaded.
 
 Last, install the package with a shell:
 
 >>> sudo python setup.py install --user
 
+If you want to uninstall:
+
+>>> sudo pip uninstall absconbest_payroll
+>>> rm -rf '~/Desktop/absconbest_payroll/'
+
 **Example**
 
-Look at your Desktop.
+Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc.
 
->>> cd 'Desktop/absconbest_payroll'
+>>> cd '~/Desktop/absconbest_payroll'
 
-
-# There now is an 'absconbest_payroll.xlsx' which is compatible
-# with both Microsoft Excel and Libreoffice Calc.
-# The program works perfectly with both.
-
-# We can customize the xlsx file in any way we want. 
-# Also, we can generate a report and graph by opening a terminal and typing:
-generateAbsconbest
-
-# The function now generated them. The report is saved in
-'Desktop/absconbest_payroll/output/'
-
-# The Python source code is located in the 'product' folder we extracted earlier:
-'.../product/absconbest_payroll'
-
-# *. To generate a graph with the generateAbsconbest command,
-#    We need to install latexlive with a terminal:
-sudo apt install
-
-# *. If you want to uninstall:
-pip uninstall absconbest_payroll
-
-The xlsx file works well with both MS and Libreoffice. eg)
+Both Excel and Calc work well with our program.
 
 >>> libreoffice ~/Desktop/absconbest_payroll/absconbest_payroll.xlsx
 
-The program adds a command that generates a report and graph.
+We can customize the xlsx file in any way we want. 
+Moreover, if you installed *texLive* we can generate a report and graph by opening a terminal and typing:
 
 >>> generateAbsconbest
 
-The report is saved at
+The function now generated the graph and report, which . is saved in the desktop folder.
 
->>> "~/Desktop/absconbest_payroll/output/"
+**Contribution**
 
+We can find our Python source code by: 
 
- This program requires Python and its package manager which can be installed by opening a terminal and typing:
-sudo apt install python-dev python-pip
+>>> ls '.../absconbest_payroll'
 
-
-# Using the program:
-
+.. image:: https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg
+   :target: http://spacemacs.org
