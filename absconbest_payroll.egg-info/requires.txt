@@ -1,0 +1,4 @@
+python3-dev
+pylatex
+plotly
+pandas
