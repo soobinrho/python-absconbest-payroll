@@ -35,8 +35,6 @@ payroll=read_xlsx(xlsx_location, "G, H, I, L, K", 33)
 payroll=get_sorted(payroll, "Wage")
 #Read the profile including the name, email, and title
 title=read_xlsx(xlsx_location, "N", 30)
-generate_report(
-    date_today, title['Profile'][0], title['Profile'][1],
-    title['Profile'][2], payroll
-)
+generate_report(date_today, title['Profile'][0], title['Profile'][1],
+                title['Profile'][2], payroll)
 

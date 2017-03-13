@@ -1,24 +1,29 @@
 Absconbest Payroll/Time Management
 ==================================
 
-Documentation for Ubuntu/Linux
-------------------------------
+Installation
+------------
 
-**Installation**
+**Ubuntu/Linux**
 
-This program requires Python and its package manager which can be installed by opening a terminal and typing:
+This program requires Python2 and its building tools which can be installed with a terminal:
 
->>> sudo apt install python-dev python-pip
+>>> sudo apt update
+>>> sudo apt install python-dev
+>>> sudo pip install --upgrade pip wheel setuptools 
 
-We can use an extra function that generates a graph and report. If you want it, install:
+Then, install the package:
 
->>> sudo apt install texlive-latex-recommended
+>>> sudo pip install absconbest_payroll 
 
-First, extract the compressed file downloaded.
+**Windows**
 
-Last, install the package with a shell:
+Install Python2's latest version from `here
+`<https://www.python.org/downloads/release/python-2713/>`.
 
->>> sudo python setup.py install --user
+Then open the *cmd* and type: 
+>>> python -m pip install --upgrade pip wheel setuptools
+>>> python -m pip install absconbest_payroll
 
 **Example**
 
@@ -35,9 +40,12 @@ Both Excel and Calc work well with our program.
 
 
 We can customize the xlsx file in any way we want. 
-Moreover, if you installed *texLive* we can generate a report and graph by opening a terminal and typing:
+Moreover, we can generate a report and graph by opening a terminal and typing:
 
 >>> generateAbsconbest
+
+Using this extra function needs to install *texLive*, which is `here
+<https://www.tug.org/texlive/acquire-iso.html>`.
 
 .. image:: pics/plotly.png
    :target: https://plot.ly

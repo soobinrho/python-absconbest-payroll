@@ -27,17 +27,10 @@ setup(
         'ipython',
         'numpy',
     ],
-    data_files=[
-        (
-            dir_home,
-            ['absconbest_payroll/absconbest_payroll.xlsx'],
-        )
-    ],
-
     zip_safe=False,
     classifiers=[
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 2',
         'Development Status :: 4 - Beta',
         'Operating System :: OS Independent',
         'Topic :: Software Development :: Libraries :: Python Modules',
@@ -46,7 +39,17 @@ setup(
         'Topic :: Office/Business :: Office Suites',
         'Topic :: Office/Business :: Scheduling',
     ],
+
+    #Include Data
+    package_data={'': ['logo.png']},
+    data_files=[
+        (
+            dir_home,
+            ['absconbest_payroll/absconbest_payroll.xlsx'],
+        )
+    ],
 )
+
 uid = pwd.getpwnam(os.path.split(os.path.expanduser('~'))[-1]).pw_uid
 gid = grp.getgrnam("nogroup").gr_gid
 os.chown(dir_home, uid, gid)
