@@ -1,5 +1,7 @@
 import os
 from setuptools import setup
+import pwd
+import grp
 
 dir_home=os.path.expanduser('~/Desktop/absconbest_payroll/')
 if not os.path.exists(dir_home):
@@ -17,26 +19,17 @@ setup(
     include_package_data=True,
     scripts=['absconbest_payroll/generateAbsconbest'],
     package_dir={'absconbest_payroll': 'absconbest_payroll'},
-    package_data={
-        'absconbest_payroll': ['logo.png'],
-    },
+    install_requires=[
+        'pandas',
+        'plotly',
+        'pylatex',
+        'xlrd',
+    ],
     data_files=[
         (
             dir_home,
             ['absconbest_payroll/absconbest_payroll.xlsx'],
         )
-    ],
-
-    install_requires=[
-        'pandas',
-        'pylatex',
-        'plotly',
-        'numpy',
-        'python-dateutil',
-        'pytz',
-        'numexpr',
-        'bottleneck',
-        'matplotlib',
     ],
 
     zip_safe=False,
@@ -52,3 +45,7 @@ setup(
         'Topic :: Office/Business :: Scheduling',
     ],
 )
+uid = pwd.getpwnam(os.path.split(os.path.expanduser('~'))[-1]).pw_uid
+gid = grp.getgrnam("nogroup").gr_gid
+os.chown(dir_home, uid, gid)
+os.chown(dir_home+'absconbest_payroll.xlsx', uid, gid)

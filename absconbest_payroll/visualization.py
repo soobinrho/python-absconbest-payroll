@@ -80,12 +80,7 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
     )
     #Follow Plotly API's standards
     fig = go.Figure(data=data, layout=layout_style)
-    py.plot(
+    py.iplot(
         fig,
         filename=main_title.lower().replace(" ","_").replace(",","")+".html",
     )
-
-    
-
-
-
