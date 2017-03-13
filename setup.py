@@ -16,7 +16,7 @@ setup(
     packages=['absconbest_payroll'],
     include_package_data=True,
     scripts=['absconbest_payroll/generateAbsconbest'],
-
+    package_dir={'absconbest_payroll': 'absconbest_payroll'},
     package_data={
         'absconbest_payroll': ['logo.png'],
     },
