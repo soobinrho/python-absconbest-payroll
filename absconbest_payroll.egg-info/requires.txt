@@ -1,3 +1,0 @@
-pylatex
-plotly
-pandas
