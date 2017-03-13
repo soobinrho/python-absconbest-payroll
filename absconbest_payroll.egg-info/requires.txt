@@ -1,4 +1,9 @@
-python3-dev
+pandas
 pylatex
 plotly
-pandas
+numpy
+python-dateutil
+pytz
+numexpr
+bottleneck
+matplotlib
