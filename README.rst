@@ -42,14 +42,15 @@ Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compati
 
 
 We can customize the xlsx file in any way we want. 
-Moreover, we can generate a report and graph by opening a terminal and typing the following command for Ubuntu,
+
+Moreover, we can generate a report and graph. Using this extra function needs to install *texLive* `here
+<https://www.tug.org/texlive/acquire-iso.html>`_.
+
+In Ubuntu, open a terminal and type the following command:
 
 >>> absconbest
 
-and clicking *absconbest.exe* for Windows.
-
-Using this extra function needs to install *texLive* `here
-<https://www.tug.org/texlive/acquire-iso.html>`_.
+Or in Windows, click *absconbest.exe*.
 
 .. image:: pics/plotly.png
    :target: https://plot.ly
