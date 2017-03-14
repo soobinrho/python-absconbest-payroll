@@ -40,13 +40,8 @@ Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compati
 .. image:: pics/xlsx.png
    :target: http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html
 
-
-We can customize the xlsx file in any way we want. 
-
 Moreover, we can generate a report and graph. Using this extra function needs to install *texLive* `here
-<https://www.tug.org/texlive/acquire-iso.html>`_.
-
-In Windows, click *absconbest.exe*. In Ubuntu, open a terminal and type the following command:
+<https://www.tug.org/texlive/acquire-iso.html>`_. Then in Windows, click *absconbest.exe*. In Ubuntu, open a terminal and type the following command:
 
 >>> absconbest
 
