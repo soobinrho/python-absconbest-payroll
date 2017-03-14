@@ -45,7 +45,7 @@ In Windows, click *absconbest.exe*. In Ubuntu, open a terminal and type the foll
 The command generates a graph and report, which are saved in the desktop image. Generating a report requires to install *texLive* `here
 <https://www.tug.org/texlive/acquire-iso.html>`_.
 
- .. folder:: pics/pylatex.png
+ .. image:: pics/pylatex.png
    :target: https://github.com/JelteF/PyLaTeX
 
 Look at your Desktop. After the *absconbest* command executed, there is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
