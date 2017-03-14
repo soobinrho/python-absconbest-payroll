@@ -7,9 +7,8 @@ import shutil
 # The function parameter is just for convenience. It does
 # not mean dir_home is moved. Instead, we will move dir_xlsx.
 def main(dir_home):
-    # First, find where absconbest_payroll.xlsx is.
-    dir_xlsx=os.path.dirname(__file__)
-    dir_xlsx=os.path.join(dir_xlsx,'absconbest_payroll.xlsx')
+    # Make the target directory.
+    os.makedirs(dir_home)
 
     # Copy absconbest_payroll.xlsx into the desktop folder.
-    shutil.copy2(dir_xlsx, dir_home)
+    shutil.copy2('absconbest_payroll.xlsx', dir_home)

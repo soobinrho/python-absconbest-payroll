@@ -110,12 +110,12 @@ def generate_report(main_title, name, title, email, payroll):
     doc.append(NewPage())
 
     # Save the report on the Desktop folder
-    dir_home=os.path.expanduser("~/Desktop/absconbest_payroll/")
-    if not os.path.exists(dir_home):
-        os.makedirs(dir_home)
+    dir_home=os.path.join('~','Desktop','absconbest_payroll')
+    dir_home=os.path.expanduser(dir_home)+os.sep
+
     doc.generate_pdf(
-        os.path.expanduser(dir_home)+main_title.lower().replace(" ","_").replace(",",""),
+        dir_home+main_title.lower().replace(" ","_").replace(",",""),
         clean_tex=True,
-        clean=True
+        clean=True,
     )
     
