@@ -26,6 +26,7 @@ setup(
         'plotly',
         'pylatex',
         'xlrd',
+        'schedule',
         'ipython',
         'numpy',
     ],

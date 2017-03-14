@@ -17,6 +17,10 @@ def generate_report(main_title, name, title, email, payroll):
         'data'
     )
     dir_data=os.path.expanduser(dir_data)
+    dir_logo=os.path.join(
+        dir_data,
+        'logo.png'
+    )
 
     geometry_options = {
         "head": "40pt",
@@ -26,7 +30,8 @@ def generate_report(main_title, name, title, email, payroll):
     }
     doc = Document(geometry_options=geometry_options)
 
-    # Generating first page style
+    # Generating
+    # first page style
     first_page = PageStyle("firstpage")
 
     # Header image
@@ -34,14 +39,11 @@ def generate_report(main_title, name, title, email, payroll):
         with header_left.create(
             MiniPage(width=NoEscape(r"0.49\textwidth"), pos='c')
         ) as logo_wrapper:
-            logo_file = os.path.join(
-                dir_data,
-                'logo.png'
-            )
+            logo_file=dir_logo
             logo_wrapper.append(
                 StandAloneGraphic(
                     image_options="width=120px",
-                    filename=logo_file
+                    filename=dir_logo
                 )
             )
 
