@@ -10,18 +10,24 @@ This program requires Python2 and its building tools which can be installed with
 
 >>> sudo apt update
 >>> sudo apt install python-dev
->>> sudo pip install --upgrade pip wheel setuptools 
+>>> sudo -H pip install --upgrade pip
+
+without sudo
+
+>>> pip install wheel setuptools   
 
 Then, install the package:
 
->>> sudo pip install absconbest_payroll 
+>>> sudo -H pip install absconbest_payroll 
+>>> pip install absconbest_payroll --user
 
 **Windows**
 
 Install Python2's latest version from `here
 `<https://www.python.org/downloads/release/python-2713/>`.
 
-Then open the *cmd* and type: 
+Then open the *cmd* and type:
+
 >>> python -m pip install --upgrade pip wheel setuptools
 >>> python -m pip install absconbest_payroll
 

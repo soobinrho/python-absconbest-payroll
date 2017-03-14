@@ -13,7 +13,6 @@ Classifier: Programming Language :: Python :: 2
 Classifier: Development Status :: 4 - Beta
 Classifier: Operating System :: OS Independent
 Classifier: Topic :: Software Development :: Libraries :: Python Modules
-Classifier: Topic :: Text Processing :: Linguistic
 Classifier: Intended Audience :: End Users/Desktop
 Classifier: Topic :: Office/Business :: Office Suites
 Classifier: Topic :: Office/Business :: Scheduling
