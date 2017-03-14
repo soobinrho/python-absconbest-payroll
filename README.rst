@@ -36,9 +36,10 @@ Function Examples
 Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc.
 
 .. highlight::
-   cd ~/Desktop/absconbest_payroll
 
-It works well with both Excel and Calc.
+   '~/Desktop/absconbest_payroll'
+
+It works well with both Excel and Calc. In Ubuntu, we can open it with:
 
 >>> libreoffice absconbest_payroll.xlsx
 
@@ -68,7 +69,7 @@ If you want to uninstall, first:
 
 >>> pip uninstall absconbest_payroll -y
 
-Then, for Linux:
+Then, for Ubuntu:
 
 >>> rm -rf ~/Desktop/absconbest_payroll/
 
