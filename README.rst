@@ -25,7 +25,7 @@ Finally, install the package:
 
 **Windows**
 
-Install Python2's latest version from `here
+Install Python2's latest version `here
 <https://www.python.org/downloads/release/python-2713/>`_.
 
 Then open a *cmd* and type:
@@ -53,7 +53,7 @@ Moreover, we can generate a report and graph by opening a terminal and typing:
 
 >>> absconbest
 
-Using this extra function needs to install *texLive*, which is `here
+Using this extra function needs to install *texLive* `here
 <https://www.tug.org/texlive/acquire-iso.html>`_.
 
 .. image:: pics/plotly.png
