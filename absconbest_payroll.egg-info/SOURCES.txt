@@ -4,7 +4,7 @@ absconbest_payroll/__init__.py
 absconbest_payroll/__main__.py
 absconbest_payroll/backingUp.py
 absconbest_payroll/commands.py
-absconbest_payroll/copySpreadsheet.py
+absconbest_payroll/copyData.py
 absconbest_payroll/reportGeneration.py
 absconbest_payroll/spreadsheetManipulation.py
 absconbest_payroll/visualization.py

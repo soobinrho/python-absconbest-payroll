@@ -1,7 +1,7 @@
 Metadata-Version: 1.1
 Name: absconbest-payroll
 Version: 0.1b1
-Summary: Open source time and payroll management system including an xlsx file that works perfectly with both Excel and Calc; and functions like generating a graph and report
+Summary: An open source time and payroll management system including a spreadsheet working perfectly with both Excel and Calc; and functions like generating a graph and report
 Home-page: https://github.com/soorho/absconbest_payroll
 Author: Soobin Rho
 Author-email: soobinrho@gmail.com
