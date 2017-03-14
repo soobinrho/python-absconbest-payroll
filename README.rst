@@ -35,7 +35,7 @@ Function Examples
 
 Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc.
 
-.. highlight::
+.. highlight:: python
 
    '~/Desktop/absconbest_payroll'
 
