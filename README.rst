@@ -26,9 +26,7 @@ Finally, install the package:
 **Windows**
 
 Install Python2's latest version `here
-<https://www.python.org/downloads/release/python-2713/>`_.
-
-Then open a *cmd* and type:
+<https://www.python.org/downloads/release/python-2713/>`_, and open a *cmd* and type:
 
 >>> python -m pip install --upgrade pip wheel setuptools
 >>> python -m pip install absconbest_payroll
