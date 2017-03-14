@@ -6,9 +6,9 @@ import grp
 
 #Following the API setuptools' standards
 setup(
-    name='absconbest_payroll',
+    name='absconbest-payroll',
     version='0.1b1',
-    description='Time and payroll management with an xlsx file which works perfectly with both Excel and Calc, also with extra Python functions',
+    description='Open source time and payroll management system including an xlsx file that works perfectly with both Excel and Calc; and functions like generating a graph and report',
     url='https://github.com/soorho/absconbest_payroll',
     author='Soobin Rho',
     author_email='soobinrho@gmail.com',

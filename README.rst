@@ -67,7 +67,7 @@ The graph and report are saved in
 
   ~/Desktop/absconbest_payroll/
 
-This folder has 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
+Moreover, this folder has 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
 
 >>> libreoffice ~/Desktop/absconbest_payroll/absconbest_payroll.xlsx
 
