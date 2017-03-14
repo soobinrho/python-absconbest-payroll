@@ -45,20 +45,29 @@ Then, install our package:
 Function Examples
 -----------------
 
-In Windows, click *absconbest.exe*. In Ubuntu, open a terminal and type the following command:
+The Python function generates a graph and report. In Ubuntu, open a terminal and type the following command:
 
 >>> absconbest
+
+In Windows, run the exe file. By the way, we can move this into any folder like Desktop.
+
+  C:\\python27\\tools\\Scripts\\absconbest.exe
 
 .. image:: pics/plotly.png
    :target: https://plot.ly
 
-The command generates a graph and report, which are saved in the desktop folder. Generating a report requires to install *texLive* `here
+Generating a report requires to install *texLive* `here
 <https://www.tug.org/texlive/acquire-iso.html>`_.
 
  .. image:: pics/pylatex.png
    :target: https://github.com/JelteF/PyLaTeX
 
-Look at your Desktop. After the *absconbest* command executed, there is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
+
+The graph and report are saved in
+
+  ~/Desktop/absconbest_payroll/
+
+This folder has 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
 
 >>> libreoffice ~/Desktop/absconbest_payroll/absconbest_payroll.xlsx
 
