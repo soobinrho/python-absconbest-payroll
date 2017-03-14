@@ -22,9 +22,12 @@ Finally, install our package without *sudo*:
 **Windows**
 
 Install Python2's latest version `here
-<https://www.python.org/downloads/release/python-2713/>`_, and open a *cmd* and type:
+<https://www.python.org/downloads/release/python-2713/>`_, and open a *cmd* and install Python's building tools:
 
 >>> python -m pip install --upgrade pip wheel setuptools
+
+Then, install our package:
+
 >>> python -m pip install absconbest_payroll
 
 Function Examples
@@ -32,7 +35,8 @@ Function Examples
 
 Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc.
 
->>> cd ~/Desktop/absconbest_payroll
+.. highlight::
+   cd ~/Desktop/absconbest_payroll
 
 It works well with both Excel and Calc.
 
@@ -43,7 +47,7 @@ It works well with both Excel and Calc.
 
 
 We can customize the xlsx file in any way we want. 
-Moreover, we can generate a report and graph by opening a terminal and typing the following command for Linux,
+Moreover, we can generate a report and graph by opening a terminal and typing the following command for Ubuntu,
 
 >>> absconbest
 
