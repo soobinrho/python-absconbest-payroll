@@ -16,7 +16,7 @@ setup(
     packages=['absconbest_payroll'],
     include_package_data=True,
     entry_points={
-        'console_scripts': [
+        'gui_scripts': [
             'absconbest=absconbest_payroll.commands:main',
         ],
     },

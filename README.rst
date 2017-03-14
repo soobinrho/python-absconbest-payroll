@@ -26,9 +26,14 @@ Finally, install our package without *sudo*:
 Install Python2's latest version `here
 <https://www.python.org/downloads/release/python-2713/>`_, and open a file explorer and double click:
 
-  c:\python27\tools\scripts\win_add2path.py
+  C:\python27\tools\scripts\win_add2path.py
 
-open a *cmd* and install Python's building tools:
+Type
+
+  [Control] and [x]
+  [a]
+
+Now, install Python's building tools:
 
 >>> python -m pip install --upgrade pip wheel setuptools
 
