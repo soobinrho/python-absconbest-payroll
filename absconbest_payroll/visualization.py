@@ -4,6 +4,7 @@ import plotly.offline as py
 from plotly import tools
 
 def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_title):
+
     #Initialize the Data
     trace=go.Bar(
         {
@@ -79,7 +80,7 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
         showlegend=False,
     )
 
-    #Save the graph into the desktop folder 
+    #For saving the graph into the desktop folder
     dir_data=os.path.join(
         '~',
         'Desktop',
@@ -92,12 +93,12 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
     fig = go.Figure(data=data, layout=layout_style)
     py.plot(
         fig,
+        auto_open=True,
         filename=os.path.join(
             dir_data,
             main_title.lower().replace(" ","_").replace(",",""),
             '.html'
         ),
-        auto_open=True,
         image_filename=os.path.join(
             dir_data,
             main_title.lower().replace(" ","_").replace(",","")

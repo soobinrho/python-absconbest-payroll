@@ -38,8 +38,12 @@ def generate_report(main_title, name, title, email, payroll):
                 dir_data,
                 'logo.png'
             )
-            logo_wrapper.append(StandAloneGraphic(image_options="width=120px",
-                                                  filename=logo_file))
+            logo_wrapper.append(
+                StandAloneGraphic(
+                    image_options="width=120px",
+                    filename=logo_file
+                )
+            )
 
     # Add document title
     with first_page.create(Head("R")) as right_header:
@@ -122,7 +126,7 @@ def generate_report(main_title, name, title, email, payroll):
     doc.append(NewPage())
 
     doc.generate_pdf(
-        os.path.join(
+        filepath=os.path.join(
             dir_data,
             main_title.lower().replace(" ","_").replace(",",""),
         ),
