@@ -30,7 +30,8 @@ Then open a *cmd* and type:
 >>> python -m pip install --upgrade pip wheel setuptools
 >>> python -m pip install absconbest_payroll
 
-**Function Examples**
+Functions 
+---------
 
 Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc.
 
