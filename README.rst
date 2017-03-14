@@ -40,7 +40,7 @@ Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compati
 
 >>> cd ~/Desktop/absconbest_payroll
 
-Both Excel and Calc work well with our program.
+It works well with both Excel and Calc.
 
 >>> libreoffice absconbest_payroll.xlsx
 
@@ -49,9 +49,11 @@ Both Excel and Calc work well with our program.
 
 
 We can customize the xlsx file in any way we want. 
-Moreover, we can generate a report and graph by opening a terminal and typing:
+Moreover, we can generate a report and graph by opening a terminal and typing the following command for Linux,
 
 >>> absconbest
+
+and clicking *absconbest.exe* for Windows.
 
 Using this extra function needs to install *texLive* `here
 <https://www.tug.org/texlive/acquire-iso.html>`_.
