@@ -1,3 +1,6 @@
+.. image:: https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg
+   :target: http://spacemacs.org
+
 Absconbest Payroll/Time Management
 ==================================
 
@@ -77,5 +80,3 @@ We can find our Python source code by:
 
 >>> ls ~/Download/absconbest_payroll/absconbest_payroll
 
-.. image:: https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg
-   :target: http://spacemacs.org
