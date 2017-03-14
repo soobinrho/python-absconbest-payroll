@@ -1,5 +1,4 @@
 README.rst
-setup.cfg
 setup.py
 absconbest_payroll/__init__.py
 absconbest_payroll/__main__.py
