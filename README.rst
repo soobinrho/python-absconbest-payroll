@@ -31,6 +31,7 @@ Install Python2's latest version `here
 Type
 
   [Control] and [x]
+
   [a]
 
 Now, install Python's building tools:
