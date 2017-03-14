@@ -8,6 +8,16 @@ from absconbest_payroll.spreadsheetManipulation import *
 #This module was 99% copy/pasted from PyLaTex's Documentation: https://jeltef.github.io/PyLaTeX/current/examples/complex_report.html
 
 def generate_report(main_title, name, title, email, payroll):
+
+    # For saving the report in the Desktop folder
+    dir_data=os.path.join(
+        '~',
+        'Desktop',
+        'absconbest_payroll'
+        'data'
+    )
+    dir_data=os.path.expanduser(dir_data)
+
     geometry_options = {
         "head": "40pt",
         "margin": "0.5in",
@@ -25,7 +35,7 @@ def generate_report(main_title, name, title, email, payroll):
             MiniPage(width=NoEscape(r"0.49\textwidth"), pos='c')
         ) as logo_wrapper:
             logo_file = os.path.join(
-                os.path.dirname(os.path.abspath(__file__)),
+                dir_data,
                 'logo.png'
             )
             logo_wrapper.append(StandAloneGraphic(image_options="width=120px",
@@ -111,13 +121,11 @@ def generate_report(main_title, name, title, email, payroll):
 
     doc.append(NewPage())
 
-    # Save the report on the Desktop folder
-    dir_home=os.path.join('~','Desktop','absconbest_payroll')
-    dir_home=os.path.expanduser(dir_home)+os.sep
-
     doc.generate_pdf(
-        dir_home+main_title.lower().replace(" ","_").replace(",",""),
+        os.path.join(
+            dir_data,
+            main_title.lower().replace(" ","_").replace(",",""),
+        ),
         clean_tex=True,
         clean=True,
     )
-    
