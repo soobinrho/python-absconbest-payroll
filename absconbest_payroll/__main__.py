@@ -7,7 +7,7 @@ from absconbest_payroll.reportGeneration import *
 #Convert the data type of today to make it readable
 date_today=datetime.date.today().strftime('%b %d, %Y')
 
-#Assign the 'absconbest_payroll.xlsx' file's location
+#Declare the 'absconbest_payroll.xlsx' file's location
 xlsx_location=os.path.expanduser("~/Desktop/absconbest_payroll/absconbest_payroll.xlsx")
 
 #Read activities and their time in hour
@@ -39,4 +39,3 @@ generate_report(
     date_today, title['Profile'][0], title['Profile'][1],
     title['Profile'][2], payroll
 )
-
