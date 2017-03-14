@@ -1,6 +1,0 @@
-pandas
-plotly
-pylatex
-xlrd
-ipython
-numpy
