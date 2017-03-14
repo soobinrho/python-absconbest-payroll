@@ -15,7 +15,11 @@ setup(
     license='MIT',
     packages=['absconbest_payroll'],
     include_package_data=True,
-    scripts=['absconbest_payroll/absconbest'],
+    entry_points={
+        'console_scripts': [
+            'absconbest=absconbest_payroll.commands:main',
+        ],
+    },
     package_dir={'absconbest_payroll': 'absconbest_payroll'},
     install_requires=[
         'pandas',

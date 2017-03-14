@@ -1,0 +1,3 @@
+[console_scripts]
+absconbest = absconbest_payroll.commands:main
+

@@ -33,14 +33,7 @@ Then, install our package:
 Function Examples
 -----------------
 
-Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
-
->>> libreoffice ~/Desktop/absconbest_payroll/absconbest_payroll.xlsx
-
-.. image:: pics/xlsx.png
-   :target: http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html
-
-Moreover, we can generate a report and graph. Using this extra function needs to install *texLive* `here
+We can generate a report and graph. Using this extra function needs to install *texLive* `here
 <https://www.tug.org/texlive/acquire-iso.html>`_. Then in Windows, click *absconbest.exe*. In Ubuntu, open a terminal and type the following command:
 
 >>> absconbest
@@ -52,6 +45,13 @@ The command generates a graph and report, which are saved in the desktop folder.
 
  .. image:: pics/pylatex.png
    :target: https://github.com/JelteF/PyLaTeX
+
+Look at your Desktop. After the *absconbest* command executed, there is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
+
+>>> libreoffice ~/Desktop/absconbest_payroll/absconbest_payroll.xlsx
+
+.. image:: pics/xlsx.png
+   :target: http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html
 
 If you want to uninstall, first:
 
