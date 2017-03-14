@@ -33,15 +33,9 @@ Then, install our package:
 Function Examples
 -----------------
 
-Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc.
+Look at your Desktop. There now is an 'absconbest_payroll.xlsx' which is compatible with both Microsoft Excel and Libreoffice Calc. It works well with both Excel and Calc. In Ubuntu, we can open it with:
 
-.. highlight:: python
-
-   '~/Desktop/absconbest_payroll'
-
-It works well with both Excel and Calc. In Ubuntu, we can open it with:
-
->>> libreoffice absconbest_payroll.xlsx
+>>> libreoffice ~/Desktop/absconbest_payroll/absconbest_payroll.xlsx
 
 .. image:: pics/xlsx.png
    :target: http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html
