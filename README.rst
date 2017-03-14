@@ -10,10 +10,10 @@ This program requires Python2 and its building tools which can be installed with
 
 >>> sudo apt update
 >>> sudo apt install python-dev
->>> pip install --upgrade pip
 
 without sudo
 
+>>> pip install --upgrade pip
 >>> pip install wheel setuptools   
 
 Finally, install the package:
