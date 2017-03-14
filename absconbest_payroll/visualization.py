@@ -84,7 +84,7 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
     dir_data=os.path.join(
         '~',
         'Desktop',
-        'absconbest_payroll'
+        'absconbest_payroll',
         'data'
     )
     dir_data=os.path.expanduser(dir_data)
@@ -96,8 +96,7 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
         auto_open=True,
         filename=os.path.join(
             dir_data,
-            main_title.lower().replace(" ","_").replace(",",""),
-            '.html'
+            main_title.lower().replace(" ","_").replace(",","")+'.html'
         ),
         image_filename=os.path.join(
             dir_data,

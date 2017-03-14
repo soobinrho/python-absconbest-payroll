@@ -13,7 +13,7 @@ def generate_report(main_title, name, title, email, payroll):
     dir_data=os.path.join(
         '~',
         'Desktop',
-        'absconbest_payroll'
+        'absconbest_payroll',
         'data'
     )
     dir_data=os.path.expanduser(dir_data)
@@ -127,7 +127,7 @@ def generate_report(main_title, name, title, email, payroll):
 
     doc.generate_pdf(
         filepath=os.path.join(
-            dir_data,
+dir_data,
             main_title.lower().replace(" ","_").replace(",",""),
         ),
         clean_tex=True,
