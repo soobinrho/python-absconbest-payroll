@@ -1,5 +1,5 @@
 import os
-import absconbest_payroll
+from absconbest_payroll import copySpreadsheet
 
 def main():
    # The first time our package is installed, it creates
@@ -10,7 +10,7 @@ def main():
    dir_home=os.path.expanduser(dir_home)+os.sep
 
    if not os.path.exists(dir_home):
-      absconbest_payroll.copySpreadsheet.main(dir_home)
+      copySpreadsheet.main(dir_home)
 
    # Finally, generate a graph and report.
    import absconbest_payroll.__main__

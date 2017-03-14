@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: absconbest-payroll
+Version: 0.1b1
+Summary: Time and payroll management with an xlsx file which works perfectly with both Excel and Calc, also with extra Python functions
+Home-page: https://github.com/soorho/absconbest_payroll
+Author: Soobin Rho
+Author-email: soobinrho@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: time payroll management
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Office/Business :: Office Suites
+Classifier: Topic :: Office/Business :: Scheduling

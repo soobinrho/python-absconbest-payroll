@@ -10,5 +10,9 @@ def main(dir_home):
     # Make the target directory.
     os.makedirs(dir_home)
 
+    # Find absconbest_payroll.xlsx's location.
+    loc=os.path.dirname(os.path.abspath(__file__))
+    loc=os.path.join(loc,'absconbest_payroll.xlsx')
+
     # Copy absconbest_payroll.xlsx into the desktop folder.
-    shutil.copy2('absconbest_payroll.xlsx', dir_home)
+    shutil.copy2(loc, dir_home)

@@ -42,7 +42,7 @@ In Windows, click *absconbest.exe*. In Ubuntu, open a terminal and type the foll
 .. image:: pics/plotly.png
    :target: https://plot.ly
 
-The command generates a graph and report, which are saved in the desktop image. Generating a report requires to install *texLive* `here
+The command generates a graph and report, which are saved in the desktop folder. Generating a report requires to install *texLive* `here
 <https://www.tug.org/texlive/acquire-iso.html>`_.
 
  .. image:: pics/pylatex.png
@@ -65,9 +65,9 @@ Use and extend our package freely please. Look at the files in our repository. F
 Uninstallation
 ==============
 
-If you want to uninstall, first:
+If you want to uninstall, first the following; in Windows, omit *sudo -H*.
 
->>> pip uninstall absconbest_payroll -y
+>>> sudo -H pip uninstall absconbest_payroll -y
 
 Then for Windows, delete the absconbest_payroll folder in the desktop folder. For Ubuntu:
 
