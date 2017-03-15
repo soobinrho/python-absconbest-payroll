@@ -1,14 +1,15 @@
 Metadata-Version: 1.1
 Name: absconbest-payroll
-Version: 0.1b1
-Summary: An open source time and payroll management system including a spreadsheet working perfectly with both Excel and Calc; and functions like generating a graph and report
+Version: 0.1
+Summary: Time and payroll management
 Home-page: https://github.com/soorho/absconbest_payroll
 Author: Soobin Rho
 Author-email: soobinrho@gmail.com
 License: MIT
-Description: UNKNOWN
+Description: An open source time and payroll management system including a spreadsheet working perfectly with both Excel and Calc; and functions like generating a graph and report; tested to function perfectly on Ubuntu 16.04 and Windows 10
 Keywords: time payroll management
-Platform: UNKNOWN
+Platform: Ubuntu 16.04
+Platform: Windows 10
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 2
 Classifier: Development Status :: 4 - Beta
