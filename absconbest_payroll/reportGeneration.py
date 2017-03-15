@@ -35,8 +35,8 @@ def generate_report(main_title, name, title, email, payroll):
         with header_left.create(
             MiniPage(width=NoEscape(r"0.49\textwidth"), pos='c')
         ) as logo_wrapper:
-            logo_file=os.path.join(
-                os.path.dirname(__file__),
+            logo_file = os.path.join(
+                os.path.dirname(__file__).replace('\','/'),
                 'logo.png'
             )
             logo_wrapper.append(

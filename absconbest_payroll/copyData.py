@@ -11,6 +11,7 @@ def main(dir_home):
     dir_output=os.path.join(dir_home,'output')
     os.makedirs(dir_output)
 
+    loc_sheet=os.path.dirname(os.path.abspath(__file__))
     loc_sheet=os.path.join(
         loc_sheet,
         'absconbest_payroll.xlsx'
