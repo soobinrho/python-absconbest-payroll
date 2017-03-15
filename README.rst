@@ -17,7 +17,7 @@ This program requires *Python2* and its building tools which can be installed wi
 
 Finally, install our package:
 
->>> sudo -H pip install absconbest_payroll
+>>> sudo -H pip install absconbest-payroll
 
 .. pip install .. --user does not install the command
 
@@ -40,7 +40,7 @@ Now, install *Python*'s building tools:
 
 Then, install our package:
 
->>> python -m pip install absconbest_payroll
+>>> python -m pip install absconbest-payroll
 
 Function Examples
 -----------------
@@ -102,11 +102,11 @@ Type:
 
 Then, on the *cmd*:
 
->>> python -m pip uninstall absconbest_payroll -y
+>>> python -m pip uninstall absconbest-payroll -y
 
 Finally, delete the *absconbest_payroll* folder in Desktop.
 
 **Ubuntu**
 
->>> sudo -H pip uninstall absconbest_payroll -y
->>> rm -rf ~/Desktop/absconbest_payroll/
+>>> sudo -H pip uninstall absconbest-payroll -y
+>>> rm -rf ~/Desktop/absconbest-payroll/
