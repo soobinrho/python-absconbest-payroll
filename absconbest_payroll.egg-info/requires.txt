@@ -1,7 +1,0 @@
-pandas
-plotly
-pylatex
-xlrd
-schedule
-ipython
-numpy
