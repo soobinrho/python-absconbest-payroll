@@ -5,5 +5,5 @@ sudo -H pip uninstall absconbest_payroll -y
 sudo -H pip install dist/*.whl
 # This requires sudo apt install trash
 trash -rf *.egg-info build absconbest_payroll/*.pyc
-echo twine upload dist/* for PyPI
+echo twine upload "dist/*" for PyPI
 
