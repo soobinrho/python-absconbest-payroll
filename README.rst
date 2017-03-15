@@ -15,7 +15,7 @@ This program requires *Python2* and its building tools which can be installed wi
 >>> sudo apt install python-dev python-pip
 >>> sudo -H pip install --upgrade pip wheel setuptools
 
-Finally, install our package without *sudo*:
+Finally, install our package:
 
 >>> sudo -H pip install absconbest_payroll
 
