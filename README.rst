@@ -79,11 +79,11 @@ Contribution
 
 Use and extend our package freely please. All the *Python* functions and the spread sheet are in: 
 
-  absconbest_payroll/ 
+  /*this repository*/absconbest_payroll/ 
 
 Developing may become easier - for developers in Linux - by using the *make* shell script in this repository's root directory. It builds the source code with *setuptools*, installs this built package with *pip*, and cleans up *.pyc* files, *.egg-info* folder, and other auto-generated auxiliaries.
 
->>> sudo ./make
+>>> sudo /*this repository*/make
 
 Ask me any questions:
 
