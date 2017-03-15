@@ -85,7 +85,7 @@ Developing may become easier - for developers in Linux - by using the shell scri
 
 >>> sudo ./make
 
-Ask me any questions:
+Ask me any question:
 
   soobinrho@gmail.com
 
