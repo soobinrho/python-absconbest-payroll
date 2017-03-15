@@ -56,7 +56,7 @@ In *Windows*, run the exe file. By the way, we can move this into any folder lik
 .. image:: pics/plotly.png
    :target: https://plot.ly
 
-Generating a report does not work without installing *texLive*, which is available `here
+Generating a report does not work without installing *texLive*, which is `here
 <https://www.tug.org/texlive/acquire-iso.html>`_.
 
  .. image:: pics/pylatex.png
