@@ -75,7 +75,7 @@ Moreover, the *absconbest_payroll* folder in Desktop has *absconbest_payroll.xls
    :target: http://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_excel.html
 
 Contribution
-------------
+============
 
 Use and extend our package freely please. All the *Python* functions and the spread sheet are in: 
 
