@@ -87,7 +87,7 @@ Use and extend our package freely. All the *Python* functions and the spread she
 
 Developing may become easier - for developers in Linux - by using the shell script *make*. It builds the source code with *setuptools*, installs this built package with *pip*, and cleans up *.pyc* files, *.egg-info* folder, and other auto-generated auxiliaries.
 
->>> make
+>>> ./make
 
 Ask me any question:
 
