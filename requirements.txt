@@ -1,0 +1,7 @@
+pandas
+plotly
+pylatex
+xlrdq
+schedule
+ipython
+numpy

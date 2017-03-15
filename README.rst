@@ -81,9 +81,9 @@ Use and extend our package freely please. All the *Python* functions and the spr
 
   /*this repository*/absconbest_payroll/ 
 
-Developing may become easier - for developers in Linux - by using the *make* shell script in this repository's root directory. It builds the source code with *setuptools*, installs this built package with *pip*, and cleans up *.pyc* files, *.egg-info* folder, and other auto-generated auxiliaries.
+Developing may become easier - for developers in Linux - by using the shell script *make*. It builds the source code with *setuptools*, installs this built package with *pip*, and cleans up *.pyc* files, *.egg-info* folder, and other auto-generated auxiliaries.
 
->>> sudo /*this repository*/make
+>>> sudo ./make
 
 Ask me any questions:
 

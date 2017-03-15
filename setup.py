@@ -7,7 +7,7 @@ import grp
 #Following the API setuptools' standards
 setup(
     name='absconbest-payroll',
-    version='1.1',
+    version='1.2',
     description='An open-source spreadsheet compatible with both Excel and Calc; and functions for the best time/payroll management',
     long_description='An open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and functions like generating a graph and report; tested and worked well in Ubuntu 16.04 and Windows 10',
     url='https://github.com/soorho/absconbest_payroll',
@@ -26,15 +26,6 @@ setup(
         ],
     },
     package_dir={'absconbest_payroll': 'absconbest_payroll'},
-    install_requires=[
-        'pandas',
-        'plotly',
-        'pylatex',
-        'xlrd',
-        'schedule',
-        'ipython',
-        'numpy',
-    ],
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
