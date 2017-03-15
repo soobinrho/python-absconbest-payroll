@@ -77,7 +77,7 @@ Moreover, the *absconbest_payroll* folder in Desktop has *absconbest_payroll.xls
 Contribution
 ============
 
-Use and extend our package freely please. All the *Python* functions and the spread sheet are in: 
+Use and extend our package freely. All the *Python* functions and the spread sheet are in: 
 
   /*this repository*/absconbest_payroll/ 
 
