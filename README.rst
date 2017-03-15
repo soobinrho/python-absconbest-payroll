@@ -69,7 +69,7 @@ Generating a report does not work without installing *texLive*, which is `here
 
 The graph and report are saved in:
 
-  ~/Desktop/absconbest_payroll/data/
+  ~/Desktop/absconbest_payroll/output/
 
 Moreover, the *absconbest_payroll* folder in Desktop has *absconbest_payroll.xlsx* which works well with both *Microsoft Excel* and *Libreoffice Calc*. In *Ubuntu*, we can open it with: 
 
@@ -81,13 +81,13 @@ Moreover, the *absconbest_payroll* folder in Desktop has *absconbest_payroll.xls
 Contribution
 ============
 
-Use and extend our package freely. All the *Python* functions and the spread sheet are in: 
+Use and extend our package freely. All the *Python* functions and the spreadsheet are in: 
 
-  /*this repository*/absconbest_payroll/ 
+  .../*this repository*/absconbest_payroll/ 
 
 Developing may become easier - for developers in Linux - by using the shell script *make*. It builds the source code with *setuptools*, installs this built package with *pip*, and cleans up *.pyc* files, *.egg-info* folder, and other auto-generated auxiliaries.
 
->>> ./make
+>>> .../*this repository*/make
 
 Ask me any question:
 
