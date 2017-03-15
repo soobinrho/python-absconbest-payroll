@@ -1,4 +1,5 @@
 #!/bin/bash 
+trash dist/*
 python setup.py sdist
 python setup.py bdist_wheel rotate -d dist/ -m .whl,.tar.gz -k 2
 sudo -H pip uninstall absconbest_payroll -y
