@@ -7,9 +7,9 @@ import grp
 #Following the API setuptools' standards
 setup(
     name='absconbest-payroll',
-    version='0.1',
-    description='Time and payroll management',
-    long_description='An open source time and payroll management system including a spreadsheet working perfectly with both Excel and Calc; and functions like generating a graph and report; tested to function perfectly on Ubuntu 16.04 and Windows 10',
+    version='1',
+    description='An open source time/payroll management system',
+    long_description='An open source system including a spreadsheet working perfectly with both Excel and Calc; and functions like generating a graph and report; tested to work well in Ubuntu 16.04 and Windows 10',
     url='https://github.com/soorho/absconbest_payroll',
     author='Soobin Rho',
     author_email='soobinrho@gmail.com',
@@ -17,8 +17,8 @@ setup(
     packages=['absconbest_payroll'],
     include_package_data=True,
     platforms=[
-        'Ubuntu 16.04',
-        'Windows 10'
+        'Linux',
+        'Windows'
     ],
     entry_points={
         'gui_scripts': [
@@ -38,12 +38,14 @@ setup(
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
-        'Development Status :: 4 - Beta',
-        'Operating System :: OS Independent',
-        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Development Status :: 5 - Production/Stable',
+        'Operating System :: Microsoft :: Windows',
+        'Operating System :: POSIX :: Linux',
         'Intended Audience :: End Users/Desktop',
+        'Intended Audience :: Science/Research',
         'Topic :: Office/Business :: Office Suites',
         'Topic :: Office/Business :: Scheduling',
+        'Topic :: Utilities',
     ],
     keywords='time payroll management',
 
