@@ -81,13 +81,13 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
     )
 
     #For saving the graph into the desktop folder
-    dir_data=os.path.join(
+    dir_output=os.path.join(
         '~',
         'Desktop',
         'absconbest_payroll',
-        'data'
+        'output'
     )
-    dir_data=os.path.expanduser(dir_data)
+    dir_output=os.path.expanduser(dir_output)
 
     #Follow Plotly API's standards
     fig = go.Figure(data=data, layout=layout_style)
@@ -95,11 +95,11 @@ def visualize(rawdata, rawdata2, main_title, x_title, y_title, x2_title, y2_titl
         fig,
         auto_open=True,
         filename=os.path.join(
-            dir_data,
+            dir_output,
             main_title.lower().replace(" ","_").replace(",","")+'.html'
         ),
         image_filename=os.path.join(
-            dir_data,
+            dir_output,
             main_title.lower().replace(" ","_").replace(",","")
         )
     )

@@ -10,17 +10,13 @@ from absconbest_payroll.spreadsheetManipulation import *
 def generate_report(main_title, name, title, email, payroll):
 
     # For saving the report in the Desktop folder
-    dir_data=os.path.join(
+    dir_output=os.path.join(
         '~',
         'Desktop',
         'absconbest_payroll',
-        'data'
+        'output'
     )
-    dir_data=os.path.expanduser(dir_data)
-    dir_logo=os.path.join(
-        dir_data,
-        'logo.png'
-    )
+    dir_output=os.path.expanduser(dir_output)
 
     geometry_options = {
         "head": "40pt",
@@ -39,11 +35,14 @@ def generate_report(main_title, name, title, email, payroll):
         with header_left.create(
             MiniPage(width=NoEscape(r"0.49\textwidth"), pos='c')
         ) as logo_wrapper:
-            logo_file=dir_logo
+            logo_file=os.path.join(
+                os.path.dirname(__file__),
+                'logo.png'
+            )
             logo_wrapper.append(
                 StandAloneGraphic(
                     image_options="width=120px",
-                    filename=dir_logo
+                    filename=logo_file
                 )
             )
 
@@ -129,7 +128,7 @@ def generate_report(main_title, name, title, email, payroll):
 
     doc.generate_pdf(
         filepath=os.path.join(
-dir_data,
+dir_output,
             main_title.lower().replace(" ","_").replace(",",""),
         ),
         clean_tex=True,
