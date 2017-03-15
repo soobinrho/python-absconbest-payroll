@@ -17,7 +17,6 @@ def generate_report(main_title, name, title, email, payroll):
         'output'
     )
     dir_output=os.path.expanduser(dir_output)
-
     geometry_options = {
         "head": "40pt",
         "margin": "0.5in",
@@ -35,10 +34,7 @@ def generate_report(main_title, name, title, email, payroll):
         with header_left.create(
             MiniPage(width=NoEscape(r"0.49\textwidth"), pos='c')
         ) as logo_wrapper:
-            logo_file = os.path.join(
-                os.path.dirname(__file__).replace('\','/'),
-                'logo.png'
-            )
+            logo_file = 'logo.png'
             logo_wrapper.append(
                 StandAloneGraphic(
                     image_options="width=120px",

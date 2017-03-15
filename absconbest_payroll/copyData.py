@@ -12,6 +12,10 @@ def main(dir_home):
     os.makedirs(dir_output)
 
     loc_sheet=os.path.dirname(os.path.abspath(__file__))
+    loc_logo=os.path.join(
+        loc_sheet,
+        'logo.png'
+    )
     loc_sheet=os.path.join(
         loc_sheet,
         'absconbest_payroll.xlsx'
@@ -19,3 +23,4 @@ def main(dir_home):
 
     # Copy absconbest_payroll.xlsx into the desktop folder.
     shutil.copy2(loc_sheet, dir_home)
+    shutil.copy2(loc_logo, dir_output)
