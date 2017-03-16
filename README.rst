@@ -30,13 +30,7 @@ Windows
 Install *Python*'s `here
 <https://www.python.org/downloads/>`_, - latest version is recommended -  and open a file explorer and double click:
 
-*Python 2*
-
   C:\\python27\\tools\\scripts\\win_add2path.py
-
-*Python 3*
-
-  C:\\users\\AppData\\local\\Programs\\Python3*\\tools\\Scripts\\win_add2path.py
 
 Type:
 
