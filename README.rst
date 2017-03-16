@@ -1,5 +1,5 @@
-Absconbest Payroll/Time Management |spacemacs|
-==============================================
+Absconbest Payroll/Time Management |pyversion| |license| |spacemacs| 
+====================================================================
 
 An open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and *Python* functions like generating a graph and report; tested and worked well in Ubuntu 16.04 and Windows 10:
 
@@ -117,3 +117,8 @@ Finally, delete the *absconbest_payroll* folder in Desktop.
 .. |spacemacs| image:: https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg
    :target: http://spacemacs.org
 
+.. |license| image:: https://img.shields.io/github/license/soorho/absconbest-payroll.svg
+   :target: https://github.com/soorho/absconbest-payroll/blob/master/license.txt
+
+.. |pyversion| image:: https://img.shields.io/badge/python-2.7-yellowgreen.svg
+   :target: https://www.python.org/downloads/                   
