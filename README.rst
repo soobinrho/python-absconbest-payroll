@@ -55,11 +55,11 @@ The *Python* function generates a graph and report. In *Ubuntu*, open a terminal
 
 In *Windows*, run the exe file. By the way, we can move this into any folder like Desktop.
 
-*Python 2*
+*For Python 2*
 
   C:\\python27\\tools\\Scripts\\absconbest.exe
 
-*Python 3*
+*For Python 3*
 
   C:\\users\\AppData\\local\\Programs\\Python\\Python3*\\tools\\Scripts\\absconbest.exe
 
