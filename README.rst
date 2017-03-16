@@ -61,7 +61,7 @@ In *Windows*, run the exe file. By the way, we can move this into any folder lik
 
 *Python 3*
 
-  C:\\users\\AppData\\local\\Programs\\Python3*\\tools\\Scripts\\absconbest.exe
+  C:\\users\\AppData\\local\\Programs\\Python\\Python3*\\tools\\Scripts\\absconbest.exe
 
 .. image:: pics/plotly.png
    :target: https://plot.ly
