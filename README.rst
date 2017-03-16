@@ -28,7 +28,8 @@ Windows
 -------
 
 Install *Python*'s `here
-<https://www.python.org/downloads/>`_, - latest version is recommended -  and open a file explorer and double click:
+<https://www.python.org/downloads/>`_. The latest version is recommended.
+*Python 2* requires an additional step: Open a file explorer and double click:
 
   C:\\python27\\tools\\scripts\\win_add2path.py
 
