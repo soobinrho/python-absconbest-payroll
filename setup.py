@@ -8,8 +8,8 @@ import grp
 setup(
     name='absconbest-payroll',
     version='1.42',
-    description='An open-source spreadsheet compatible with both Excel and Calc; and functions for the best time/payroll management',
-    long_description='An open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and Python functions like generating a graph and report; tested and worked well in Ubuntu 16.04 and Windows 10; https://github.com/soorho/absconbest-payroll',
+    description='open-source spreadsheet compatible with both Excel and Calc; and functions for the best time/payroll management',
+    long_description='open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and Python functions like generating a graph and report; tested and worked well in Ubuntu 16.04 and Windows 10; https://github.com/soorho/absconbest-payroll',
     url='https://github.com/soorho/absconbest-payroll',
     author='Soobin Rho',
     author_email='soobinrho@gmail.com',
