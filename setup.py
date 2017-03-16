@@ -1,13 +1,10 @@
 import os
 from setuptools import setup
-import pwd
-import grp
-
 
 #Following the API setuptools' standards
 setup(
     name='absconbest-payroll',
-    version='1.42',
+    version='1.43',
     description='open-source spreadsheet compatible with both Excel and Calc; and functions for the best time/payroll management',
     long_description='open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and Python functions like generating a graph and report; tested and worked well in Ubuntu 16.04 and Windows 10; https://github.com/soorho/absconbest-payroll',
     url='https://github.com/soorho/absconbest-payroll',
@@ -38,6 +35,7 @@ setup(
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
         'Development Status :: 5 - Production/Stable',
         'Operating System :: Microsoft :: Windows',
         'Operating System :: POSIX :: Linux',
@@ -55,6 +53,8 @@ setup(
     ]},
 )
 
+# import pwd
+# import rp
 # # If the user installed absconbest_payroll with sudo by 
 # # mistake, we had better change absconbest_payroll.xlsx's
 # # ownership to the user's not root's.

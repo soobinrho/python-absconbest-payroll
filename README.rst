@@ -12,7 +12,7 @@ Installation
 Ubuntu/Linux
 ------------
 
-This program requires *Python2* and its building tools which can be installed with a terminal:
+This program requires *Python* and its building tools which can be installed with a terminal:
 
 >>> sudo apt update
 >>> sudo apt install python-dev python-pip
@@ -27,8 +27,8 @@ Finally, install our package:
 Windows
 -------
 
-Install *Python2*'s latest version `here
-<https://www.python.org/downloads/release/python-2713/>`_, and open a file explorer and double click:
+Install *Python*'s latest version `here
+<https://www.python.org/downloads/>`_, and open a file explorer and double click:
 
   C:\\python27\\tools\\scripts\\win_add2path.py
 
@@ -55,7 +55,11 @@ The *Python* function generates a graph and report. In *Ubuntu*, open a terminal
 
 In *Windows*, run the exe file. By the way, we can move this into any folder like Desktop.
 
+*Python 2*
   C:\\python27\\tools\\Scripts\\absconbest.exe
+
+*Python 3*
+  C:\\users\\AppData\\local\\Programs\\Python3*\\tools\\Scripts\\absconbest.exe
 
 .. image:: pics/plotly.png
    :target: https://plot.ly
@@ -124,5 +128,5 @@ Ubuntu
 .. |license| image:: https://img.shields.io/github/license/soorho/absconbest-payroll.svg
    :target: https://github.com/soorho/absconbest-payroll/blob/master/license.txt
 
-.. |pyversion| image:: https://img.shields.io/badge/python-2.7-yellowgreen.svg
+.. |pyversion| image:: https://img.shields.io/badge/python-2%2C%203-green.svg
    :target: https://www.python.org/downloads/                   
