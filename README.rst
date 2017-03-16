@@ -47,7 +47,7 @@ Then, install our package:
 >>> python -m pip install absconbest-payroll
 
 Function Examples
------------------
+=================
 
 The *Python* function generates a graph and report. In *Ubuntu*, open a terminal and type the following command:
 
@@ -96,7 +96,8 @@ Ask me any question:
 Uninstallation
 ==============
 
-**Windows**
+Windows
+-------
 
 Type:
 
@@ -110,7 +111,8 @@ Then, on the *cmd*:
 
 Finally, delete the *absconbest_payroll* folder in Desktop.
 
-**Ubuntu**
+Ubuntu
+------ 
 
 >>> sudo -H pip uninstall absconbest-payroll -y
 >>> rm -rf ~/Desktop/absconbest-payroll/
