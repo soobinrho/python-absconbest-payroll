@@ -1,4 +1,4 @@
 1.41
 *.pyc
-*.eg-info/
+*.egg-info/
 build/
