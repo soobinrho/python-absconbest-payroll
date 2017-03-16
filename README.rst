@@ -1,16 +1,16 @@
-==================================================================== 
-Absconbest Payroll/Time Management |pyversion| |license| |spacemacs| 
-====================================================================
+========================================================== 
+Absconbest Payroll/Time Management |pyversion| |spacemacs| 
+==========================================================
 
 open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and *Python* functions like generating a graph and report; tested and worked well in Ubuntu 16.04 and Windows 10:
-
 
 .. image:: pics/demo.gif
 
 Installation
 ============
 
-**Ubuntu/Linux**
+Ubuntu/Linux
+------------
 
 This program requires *Python2* and its building tools which can be installed with a terminal:
 
@@ -24,7 +24,8 @@ Finally, install our package:
 
 .. pip install .. --user does not install the command
 
-**Windows**
+Windows
+-------
 
 Install *Python2*'s latest version `here
 <https://www.python.org/downloads/release/python-2713/>`_, and open a file explorer and double click:
