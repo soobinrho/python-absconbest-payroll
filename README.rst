@@ -27,10 +27,16 @@ Finally, install our package:
 Windows
 -------
 
-Install *Python*'s latest version `here
-<https://www.python.org/downloads/>`_, and open a file explorer and double click:
+Install *Python*'s `here
+<https://www.python.org/downloads/>`_, - latest version is recommended -  and open a file explorer and double click:
+
+*Python 2*
 
   C:\\python27\\tools\\scripts\\win_add2path.py
+
+*Python 3*
+
+  C:\\users\\AppData\\local\\Programs\\Python3*\\tools\\Scripts\\win_add2path.py
 
 Type:
 
@@ -56,9 +62,11 @@ The *Python* function generates a graph and report. In *Ubuntu*, open a terminal
 In *Windows*, run the exe file. By the way, we can move this into any folder like Desktop.
 
 *Python 2*
+
   C:\\python27\\tools\\Scripts\\absconbest.exe
 
 *Python 3*
+
   C:\\users\\AppData\\local\\Programs\\Python3*\\tools\\Scripts\\absconbest.exe
 
 .. image:: pics/plotly.png
