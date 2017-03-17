@@ -50,7 +50,7 @@ Then, install our package:
 Function Examples
 =================
 
-The *Python* function generates a graph, using *`Plotly <https://github.com/plotly/plotly.py>`_*, and report, using *`PyLatex <https://github.com/JelteF/PyLaTeX>`_*. In *Ubuntu*, open a terminal and type the following command:
+The *Python* function generates a graph, using `*Plotly* <https://github.com/plotly/plotly.py>`_, and report, using *`PyLatex <https://github.com/JelteF/PyLaTeX>`_*. In *Ubuntu*, open a terminal and type the following command:
 
 >>> absconbest
 
