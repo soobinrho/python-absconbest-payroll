@@ -50,7 +50,7 @@ Then, install our package:
 Function Examples
 =================
 
-The *Python* function generates a graph, using `*Plotly* <https://github.com/plotly/plotly.py>`_, and report, using *`PyLatex <https://github.com/JelteF/PyLaTeX>`_*. In *Ubuntu*, open a terminal and type the following command:
+The *Python* function generates a graph and report. In *Ubuntu*, open a terminal and type the following command:
 
 >>> absconbest
 
@@ -63,6 +63,10 @@ In *Windows*, run the exe file. By the way, we can move this into any folder lik
 *For Python 3*
 
   C:\\users\\AppData\\local\\Programs\\Python\\Python3*\\tools\\Scripts\\absconbest.exe
+
+The function uses API's from `Plotly <https://github.com/plotly/plotly.py>`_ and 
+`PyLatex <https://github.com/JelteF/PyLaTeX>`_.
+
 
 .. image:: pics/plotly.png
    :target: https://plot.ly
