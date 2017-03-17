@@ -65,7 +65,7 @@ In *Windows*, run the exe file. By the way, we can move this into any folder -- 
   C:\\users\\AppData\\local\\Programs\\Python\\Python3*\\tools\\Scripts\\absconbest.exe
 
 This function is built on the API's of *Plotly* (`GitHub <https://github.com/plotly/plotly.py>`_) and 
-*PyLatex* (`GitHub <https://github.com/JelteF/PyLaTeX>`_).
+*PyLatex*. (`GitHub <https://github.com/JelteF/PyLaTeX>`_)
 
 .. image:: pics/plotly.png
    :target: https://plot.ly
