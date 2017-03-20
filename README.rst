@@ -16,7 +16,7 @@ This program requires *Python* and its building tools which can be installed wit
 
 >>> sudo apt update
 >>> sudo apt install python-dev python-pip
->>> sudo -H pip install --upgrade pip wheel setuptools
+>>> sudo -H pip install -U pip wheel setuptools
 
 Finally, install our package:
 
@@ -27,7 +27,7 @@ Finally, install our package:
 Windows
 -------
 
-Install *Python*'s `here
+Install *Python* `here
 <https://www.python.org/downloads/>`_. The latest version is recommended.
 *Python 2* requires an additional step: Open a file explorer and double click:
 
@@ -41,7 +41,7 @@ Type:
 
 Now, install *Python*'s building tools:
 
->>> python -m pip install --upgrade pip wheel setuptools
+>>> python -m pip install -U pip wheel setuptools
 
 Then, install our package:
 
@@ -54,7 +54,7 @@ The *Python* function generates a graph and report. In *Ubuntu*, open a terminal
 
 >>> absconbest
 
-In *Windows*, run the exe file. By the way, we can move this into any folder like Desktop.
+In *Windows*, run the exe file. By the way, we can move this into any folder -- e.g. Desktop.
 
 *For Python 2*
 
@@ -63,6 +63,9 @@ In *Windows*, run the exe file. By the way, we can move this into any folder lik
 *For Python 3*
 
   C:\\users\\AppData\\local\\Programs\\Python\\Python3*\\tools\\Scripts\\absconbest.exe
+
+This function is built on the API's of *Plotly* (`GitHub <https://github.com/plotly/plotly.py>`_) and 
+*PyLatex*. (`GitHub <https://github.com/JelteF/PyLaTeX>`_)
 
 .. image:: pics/plotly.png
    :target: https://plot.ly
@@ -91,6 +94,8 @@ Contribution
 Use and extend our package freely. All the *Python* functions and the spreadsheet are in: 
 
   .../*this repository*/absconbest_payroll/ 
+
+Also, the `Projects <https://github.com/soorho/absconbest-payroll/projects>` page has the TODO list.
 
 Developing may become easier - for developers in Linux - by using the bash script *make*, which is in the repository's root. It builds the source code with *setuptools*, installs this built package with *pip*, and cleans up *.pyc* files, *.egg-info* folder, and other auto-generated auxiliaries.
 

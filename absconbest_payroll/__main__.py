@@ -4,6 +4,7 @@ from absconbest_payroll.spreadsheetManipulation import *
 from absconbest_payroll.visualization import *
 from absconbest_payroll.reportGeneration import *
 
+
 #Convert the data type of today to make it readable
 date_today=datetime.date.today().strftime('%b %d, %Y')
 

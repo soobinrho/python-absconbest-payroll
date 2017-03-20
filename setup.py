@@ -4,7 +4,7 @@ from setuptools import setup
 #Following the API setuptools' standards
 setup(
     name='absconbest-payroll',
-    version='1.43',
+    version='1.5',
     description='open-source spreadsheet compatible with both Excel and Calc; and functions for the best time/payroll management',
     long_description='open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and Python functions like generating a graph and report; tested and worked well in Ubuntu 16.04 and Windows 10; https://github.com/soorho/absconbest-payroll',
     url='https://github.com/soorho/absconbest-payroll',
