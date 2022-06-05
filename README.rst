@@ -2,7 +2,7 @@
 Absconbest Payroll/Time Management |pyversion| |spacemacs| 
 ==========================================================
 
-**June 5, 2022** This was my high school computer science project. A lot of things are not going to make sense. What does a 'time/payroll management' mean anyways? So, please beware that this project does not make a lot of sense.
+**June 5, 2022** This was my high school computer science project. A lot of things here do not make any sense. What does a 'time/payroll management' mean anyways? So, please beware that this project does not make a lot of sense.
 
 **2017** An open source time/payroll management system including a spreadsheet working perfectly with both Excel and Calc; and *Python* functions like generating a graph and report; tested in Ubuntu 16.04 and Windows 10:
 
